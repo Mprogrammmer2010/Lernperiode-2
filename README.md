@@ -19,7 +19,15 @@ Heute habe ich ein kleines Zahlenratespiel programmiert, bei dem der Spieler ein
 - Mit der Programmierung des Projekts beginnen.
 
 ## 23.10.2026
-Anfangen mit Projekt, Projekt ist Taschenrechner 
+Anfangen mit Projekt, Projekt ist Taschenrechner:
+- [ ] Programm soll zwei Zahlen annehmen können und druckt diese aus.
+- [ ] Programm gibt mal, plus, minus, hoch von den zwei Zahlen ein.
+- [ ] Programm fragt den Benutzer, ob er / sie mal, plus, minus *oder* hoch rechnen will und nimmt die Antwort an und prüft, ob die Eingabe richtig ist.
+- [ ] Programm gibt nur das aus, was der Benutzer will.
+
+
+
+
 - [ ] Die Grundlagen nachschauen und Infos die ich für dieses Projekt brauche
 - Alles umsetzen was ich nachforsche.
 - Meine Fortschritte bei readme einfügen inklusiv Code um einfacher für Herr Colic machen damit er sehen kann wie weit ich bin mit meinen Projekt.
