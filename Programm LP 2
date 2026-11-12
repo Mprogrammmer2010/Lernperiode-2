@@ -1,37 +1,114 @@
-
 using System;
+
 class Program
 {
     static void Main()
     {
         Console.WriteLine("=== Taschenrechner ===");
-        double zahl1, zahl2, ergebnis = 0;
-        Console.Write("Erste Zahl: ");
-        while (!double.TryParse(Console.ReadLine(), out zahl1))
-            Console.Write("Ungültig! Erneut eingeben: ");
-        Console.Write("Zweite Zahl: ");
-        while (!double.TryParse(Console.ReadLine(), out zahl2))
-            Console.Write("Ungültig! Erneut eingeben: ");
-        Console.WriteLine("Deine Zahlen: " + zahl1 + " und " + zahl2);
-        Console.WriteLine("Wähle: plus, minus, mal oder hoch");
+
         while (true)
         {
-            Console.Write("Rechenart: ");
-            string wahl = (Console.ReadLine() ?? "").ToLower().Trim();
-            switch (wahl)
+            double zahl1, zahl2, ergebnis = 0;
+
+            Console.WriteLine();
+            Console.WriteLine("Neue Rechnung starten");
+            Console.WriteLine("Gib 'ende' ein, um das Programm zu beenden.");
+
+            Console.Write("Erste Zahl: ");
+            string eingabe1 = Console.ReadLine() ?? "";
+
+            if (eingabe1.ToLower().Trim() == "ende")
             {
-                case "plus": ergebnis = zahl1 + zahl2; break;
-                case "minus": ergebnis = zahl1 - zahl2; break;
-                case "mal": ergebnis = zahl1 * zahl2; break;
-                case "hoch": ergebnis = Math.Pow(zahl1, zahl2); break;
-                default:
-                    Console.WriteLine("Ungültige Eingabe!");
-                    continue;
+                break;
             }
-            break;
+
+            while (!double.TryParse(eingabe1, out zahl1))
+            {
+                Console.Write("Ungültig! Erneut eingeben: ");
+                eingabe1 = Console.ReadLine() ?? "";
+
+                if (eingabe1.ToLower().Trim() == "ende")
+                {
+                    return;
+                }
+            }
+
+            Console.Write("Zweite Zahl: ");
+            string eingabe2 = Console.ReadLine() ?? "";
+
+            if (eingabe2.ToLower().Trim() == "ende")
+            {
+                break;
+            }
+
+            while (!double.TryParse(eingabe2, out zahl2))
+            {
+                Console.Write("Ungültig! Erneut eingeben: ");
+                eingabe2 = Console.ReadLine() ?? "";
+
+                if (eingabe2.ToLower().Trim() == "ende")
+                {
+                    return;
+                }
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("Wähle eine Rechenart:");
+            Console.WriteLine("plus, minus, mal, geteilt oder hoch");
+
+            bool gueltig = false;
+
+            while (!gueltig)
+            {
+                Console.Write("Rechenart: ");
+                string wahl = (Console.ReadLine() ?? "").ToLower().Trim();
+
+                switch (wahl)
+                {
+                    case "plus":
+                        ergebnis = zahl1 + zahl2;
+                        gueltig = true;
+                        break;
+
+                    case "minus":
+                        ergebnis = zahl1 - zahl2;
+                        gueltig = true;
+                        break;
+
+                    case "mal":
+                        ergebnis = zahl1 * zahl2;
+                        gueltig = true;
+                        break;
+
+                    case "geteilt":
+                        if (zahl2 == 0)
+                        {
+                            Console.WriteLine("Man kann nicht durch 0 teilen!");
+                        }
+                        else
+                        {
+                            ergebnis = zahl1 / zahl2;
+                            gueltig = true;
+                        }
+                        break;
+
+                    case "hoch":
+                        ergebnis = Math.Pow(zahl1, zahl2);
+                        gueltig = true;
+                        break;
+
+                    default:
+                        Console.WriteLine("Ungültige Eingabe!");
+                        break;
+                }
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("Ergebnis: " + ergebnis);
+            Console.WriteLine("-------------------------");
         }
-        Console.WriteLine("Ergebnis: " + ergebnis);
-        Console.WriteLine("Drücke Enter zum Beenden.");
-        Console.ReadLine();
+
+        Console.WriteLine();
+        Console.WriteLine("Taschenrechner wurde beendet.");
     }
 }
