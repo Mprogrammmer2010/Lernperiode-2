@@ -38,9 +38,19 @@ Anfangen mit Projekt, Projekt ist Taschenrechner:
 - [x] Die verschiedenen Rechenoperationen (Plus, Minus, Mal und Hoch) im Code umsetzen und testen.
 - [x] Überprüfen, ob das Programm falsche Eingaben erkennt und den Benutzer erneut nach einer Eingabe fragt.
 
-## 06.11.2027
+## 06.11.2026
+- [x]  Das Programm so verbessern, dass der Benutzer mehrere Rechnungen hintereinander durchführen kann.
+- [x] Eine Möglichkeit einbauen, mit der der Benutzer das Programm beenden kann.
+- [x] Den fertigen Taschenrechner mit verschiedenen Zahlen und Rechenoperationen testen.
+- [x] Meine Fortschritte und den fertigen Code im README dokumentieren, damit Herr Colic mein Projekt nachvollziehen kann.
+- [x] Mir einen neuen Projekt überlegen und darüber forschen.
+
+## 12.11.2026
 - [ ]  Das Programm so verbessern, dass der Benutzer mehrere Rechnungen hintereinander durchführen kann.
 - [ ] Eine Möglichkeit einbauen, mit der der Benutzer das Programm beenden kann.
 - [ ] Den fertigen Taschenrechner mit verschiedenen Zahlen und Rechenoperationen testen.
 - [ ] Meine Fortschritte und den fertigen Code im README dokumentieren, damit Herr Colic mein Projekt nachvollziehen kann.
 - [ ] Mir einen neuen Projekt überlegen und darüber forschen.
+
+
+      
