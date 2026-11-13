@@ -49,11 +49,11 @@ Anfangen mit Projekt, Projekt ist Taschenrechner:
 - [x]  Das Programm so verbessern, dass der Benutzer mehrere Rechnungen hintereinander durchführen kann.
 - [x] Eine Möglichkeit einbauen, mit der der Benutzer das Programm beenden kann.
 - [x] Den fertigen Taschenrechner mit verschiedenen Zahlen und Rechenoperationen testen.
-## 13.11.2026 Hausaufgaben 
-- [] Meine Fortschritte und den fertigen Code im README dokumentieren, damit Herr Colic mein Projekt nachvollziehen kann.
-- [] Mir einen neuen Projekt überlegen und darüber forschen.
-- [] Mit meinen Projekt anfangen und verschiedene Arten von Voci Programmen ausprobieren.
-- [] Sich für den besten geeigneten Programm für Voci Trainer entscheiden.
+## 20.11.2026 als Hausaufgaben 
+- [ ] Meine Fortschritte und den fertigen Code im README dokumentieren, damit Herr Colic mein Projekt nachvollziehen kann.
+- [ ] Mir einen neuen Projekt überlegen und darüber forschen.
+- [ ] Mit meinen Projekt anfangen und verschiedene Arten von Voci Programmen ausprobieren.
+- [ ] Sich für den besten geeigneten Programm für Voci Trainer entscheiden.
 
 
       
