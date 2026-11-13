@@ -45,7 +45,7 @@ Anfangen mit Projekt, Projekt ist Taschenrechner:
 - [x] Meine Fortschritte und den fertigen Code im README dokumentieren, damit Herr Colic mein Projekt nachvollziehen kann.
 - [x] Mir einen neuen Projekt überlegen und darüber forschen.
 
-## 12.11.2026
+## 13.11.2026
 - [ ]  Das Programm so verbessern, dass der Benutzer mehrere Rechnungen hintereinander durchführen kann.
 - [ ] Eine Möglichkeit einbauen, mit der der Benutzer das Programm beenden kann.
 - [ ] Den fertigen Taschenrechner mit verschiedenen Zahlen und Rechenoperationen testen.
