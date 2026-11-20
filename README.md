@@ -49,11 +49,19 @@ Anfangen mit Projekt, Projekt ist Taschenrechner:
 - [x]  Das Programm so verbessern, dass der Benutzer mehrere Rechnungen hintereinander durchführen kann.
 - [x] Eine Möglichkeit einbauen, mit der der Benutzer das Programm beenden kann.
 - [x] Den fertigen Taschenrechner mit verschiedenen Zahlen und Rechenoperationen testen.
-## 20.11.2026 als Hausaufgaben 
+
+## 20.11.2026 und Hausaufgaben 
 - [x] Meine Fortschritte und den fertigen Code im README dokumentieren, damit Herr Colic mein Projekt nachvollziehen kann.
 - [x] Mir einen neuen Projekt überlegen und darüber forschen.
 - [x] Mit meinen Projekt anfangen und verschiedene Arten von Voci Programmen ausprobieren.
 - [x] Sich für den besten geeigneten Programm für Voci Trainer entscheiden.
 
-
+## Hausaufgaben 
+- [ ] Für Voci Trainer Datei Extrahation programmieren und herausfinden wie das geht das lernen.
+- [ ] Französische Voci Liste einfügen nämlich die wir haben in unseren Fach.
+      
+## 27.11.2026 Hausaufgaben 
+- [ ] Noch mögliche Erweiterungen programmieren.
+- [ ] Alles Dokumetieren IPERKA.
+- [ ] Mein Programm vergleichen mit unsere Gruppen-Arbeit die auch ein Voci Trainer war.
       
