@@ -7,7 +7,7 @@ class Program
         Console.WriteLine("=== Taschenrechner ===");
 
         while (true)
-        {
+         {
             double zahl1, zahl2, ergebnis = 0;
 
             Console.WriteLine();
